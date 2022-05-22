@@ -1,6 +1,6 @@
 # Lists
 
-name = input("Enter file name: ")
+''''name = input("Enter file name: ")
 fh = open(name)
 lst = list()
 for line in fh :
@@ -12,4 +12,18 @@ for line in fh :
         else :
             lst.append(word)
 lst.sort()
-print(lst)
+print(lst)'''
+
+file=input("enter file:")
+name=open(file)
+list=[]
+for line in name:
+    a=line.split()
+    for word in a:
+        if word in list:
+            continue
+        else:
+            list.append(word)
+list.sort() 
+
+print(list)
