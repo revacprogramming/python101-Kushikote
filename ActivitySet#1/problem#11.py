@@ -1,4 +1,3 @@
-
 fname = input("Enter file name: ")
 fh = open(fname)
 
@@ -15,4 +14,4 @@ for k,v in d.items() :
     lst.append((k,v))
 lst.sort()
 for k,v in lst :
-    print(k,v)
+    print(k,v
