@@ -19,7 +19,8 @@ you = counts.values()
 me = max(you)
 for key in counts:
 	if counts[key] == z:
-		print(key, z)
+		print(key, z)'''
+    
 
 name = input("Enter file:")
 fname = open(name)
