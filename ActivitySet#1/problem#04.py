@@ -24,7 +24,7 @@ if s<=1.0 and s>=0.0:
       print("D")
     elif s<0.6:
       print("F")
-    elif print("invalid output"):   '''  
+    elif print("invalid output"):   
       
 
 
