@@ -35,7 +35,7 @@ for lines in fname:
 	if word[1] in counts:
 		counts[word[1]] += 1
 	else:
-		counts[word[1]] = 1
+		counts[word[1]] = 
 
 me = counts.value()
 you = max(me)
